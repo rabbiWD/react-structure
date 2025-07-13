@@ -9,6 +9,11 @@ body{
     margin: 0;
 }
 
+.counter-section{
+    display: flex;
+    gap: 20px;
+}
+
 .counter{
     width: 338px;
     background: white;
@@ -16,6 +21,7 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     text-align: center;
+    
 }
 
 .count{
@@ -28,7 +34,7 @@ body{
     justify-content: center;
 }
 
-#button{
+#button1, #button2{
     padding: 0.5rem 1.5rem;
     font-size: 1rem;
     border: none;
